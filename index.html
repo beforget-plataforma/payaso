@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>El Payaso Principal · Ramón Romero Boquete</title>
-<meta name="description" content="Del pasillo de los coches al Gran Circo de la Sintropía. Las 4 C, los disfraces del «ilustre inepto» y dónde se monta este circo.">
+<meta name="description" content="Del pasillo de los coches al Gran Circo de la Sintropía. Las tres patas, los disfraces del «ilustre inepto» y dónde se monta este circo.">
 <meta property="og:title" content="El Payaso Principal">
 <meta property="og:description" content="Del pasillo de los coches al Gran Circo de la Sintropía.">
 <meta property="og:type" content="website">
@@ -67,8 +67,8 @@ section{padding-block:clamp(64px,10vw,128px)}
 .today .red{color:var(--red);font-weight:600}
 @media (max-width:860px){.story{grid-template-columns:minmax(0,1fr)}.quote{position:static;order:-1}}
 
-/* 4 C */
-.cs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;border-top:2px solid var(--white)}
+/* TRES PATAS */
+.cs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border-top:2px solid var(--white)}
 .cs article{padding:32px 24px 36px 0;border-bottom:1px solid var(--line-d);display:flex;flex-direction:column;gap:10px;min-width:0}
 .cs article + article{padding-left:24px;border-left:1px solid var(--line-d)}
 .cs .c{font-family:var(--display);font-weight:900;font-stretch:62%;font-size:84px;line-height:.8;color:var(--red)}
@@ -80,8 +80,8 @@ section{padding-block:clamp(64px,10vw,128px)}
 .rule-text{display:grid;gap:18px;color:#dcdcdc}
 .rule-text b{color:var(--white);font-weight:600}
 @media (max-width:900px){
-  .cs{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .cs article:nth-child(3){padding-left:0;border-left:0}
+  .cs{grid-template-columns:minmax(0,1fr)}
+  .cs article,.cs article + article{padding:26px 0 28px;border-left:0}
 }
 @media (max-width:560px){
   .cs{grid-template-columns:minmax(0,1fr)}
@@ -233,15 +233,14 @@ footer b{font-family:var(--display);font-weight:800;font-stretch:88%;text-transf
   <div class="wrap">
     <div class="sec-head">
       <div class="kicker">02</div>
-      <h2 id="ces">Las 4 C</h2>
-      <p class="sub">Cuatro patas para no estrellarse contra la lona</p>
+      <h2 id="ces">Las tres patas</h2>
+      <p class="sub">Para no estrellarse contra la lona</p>
     </div>
     <p class="lead narrow" style="margin-bottom:40px;color:#dcdcdc">Suenan muy serias, pero se practican con mucha risa:</p>
     <div class="cs">
-      <article><span class="c">C</span><h3>Compromiso</h3><p>No echarle más leña al fuego innecesario.</p></article>
-      <article><span class="c">C</span><h3>Compasión</h3><p>Mirar las miserias propias y ajenas sin sacar el látigo.</p></article>
-      <article><span class="c">C</span><h3>Competencia</h3><p>Currárselo de verdad para comunicar y construir, no solo soltar humo.</p></article>
-      <article><span class="c">C</span><h3>Consciencia</h3><p>Darse cuenta de cuándo estás en la parra y cuándo estás presente.</p></article>
+      <article><span class="c">1</span><h3>Coherencia</h3><p>Pillar que todo está conectado, saberse entero y parte del conjunto. Darse cuenta de cuándo estás en la parra y cuándo estás presente.</p></article>
+      <article><span class="c">2</span><h3>Amabilidad</h3><p>Mirar las miserias propias y ajenas sin sacar el látigo.</p></article>
+      <article><span class="c">3</span><h3>Generosidad</h3><p>Hacerse cargo del valor que uno tiene: currárselo de verdad para comunicar y construir, no solo soltar humo.</p></article>
     </div>
     <div class="rule">
       <div>
@@ -358,7 +357,7 @@ footer b{font-family:var(--display);font-weight:800;font-stretch:88%;text-transf
         </tr>
         <tr>
           <th scope="row">«Es que yo no puedo / no sé hacerlo»</th>
-          <td>Nadie nace sabiendo hacer malabares con antorchas. Se empieza por lo pequeño, con las 4 C a mano y sin exigirse medalla olímpica el primer día.</td>
+          <td>Nadie nace sabiendo hacer malabares con antorchas. Se empieza por lo pequeño, con las tres patas a mano y sin exigirse medalla olímpica el primer día.</td>
         </tr>
         <tr>
           <th scope="row">«Esto suena a fórmula rígida»</th>
